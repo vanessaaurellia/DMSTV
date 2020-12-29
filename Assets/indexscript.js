@@ -1,4 +1,4 @@
-var countDownDate = new Date("Dec 29, 2020 17:00:00").getTime();
+var countDownDate = new Date("Dec 29, 2020 15:30:00").getTime();
 
 var x = setInterval(function() {
 
@@ -12,6 +12,6 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "Start";
   }
 }, 1000);

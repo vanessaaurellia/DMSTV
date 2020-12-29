@@ -13,12 +13,35 @@
 </head>
 
 <body>
-    <p class="demo" id="demo"></p>
-    <p><a href="index2.html">Start</a></p>
     <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <!-- Wikplayer https://www.wikplayer.com -->
     <script type="text/javascript" src="https://www.wikplayer.com/code.js" data-config="{'skin':'skins/wikfull/ribbonGreen/skin.css','volume':29,'autoplay':true,'shuffle':false,'repeat':0,'showcomment':false,'marqueetexton':true,'placement':'bottom','showplaylist':false,'playlist':[{'title':'All%20I%20Want%20For%20Christmas%20Is%20You','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DfGFNmEOntFA'},{'title':'Last%20Christmas','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DT4pTMZuAux4'},{'title':'Santa%20Tell%20Me','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DnlR0MkrRklg'},{'title':'Let%20It%20Snow!%20Let%20It%20Snow!%20Let%20It%20Snow!','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DsE3uRRFVsmc'},{'title':'Mistletoe','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DAeRwj3QUTqs'},{'title':'Joy%20To%20The%20World','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D-Xo64Q2ucQ8'},{'title':'Little%20Drummer%20Boy','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DqJ_MGWio-vc'},{'title':'O%20Holy%20Night','url':'https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBEJmP8T07JU'}]}" ></script>
     <!-- Stars Made by @screenshake -->
+    <div class='progress'>
+        <div class='progress_inner'>
+          <div class='progress_inner__step'>
+            <label for='step-1'>Prepare</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-2'>Choose</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-3'>Start order</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-4'>Wait</label>
+          </div>
+          <div class='progress_inner__step'>
+            <label for='step-5'>Let's eat</label>
+          </div>
+          <input checked='checked' id='step-1' name='step' type='radio'>
+          <input id='step-2' name='step' type='radio'>
+          <input id='step-3' name='step' type='radio'>
+          <input id='step-4' name='step' type='radio'>
+          <input id='step-5' name='step' type='radio'>
+          <div class='progress_inner__bar'></div>
+          <div class='progress_inner__bar--set'></div>
+    </div>
     <div id='stars'></div>
     <div id='stars2'></div>
     <div id='stars3'></div>
